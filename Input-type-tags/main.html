@@ -5,19 +5,19 @@
         <meta name="viewport" 
         content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <script type="text/javascript" src="script.js" defer></script>
     </head>
     <body>
         <div class="input-type-tags">
             <div class="tags input">
                 <span class="tags-text">Tags</span><p>
-                <input type="text" class="tags-input" placeholder="Add tags separated by comma" 
-                        onkeydown="JavaScript:Enter_Chk();" onFocus="this.value='';return true;"><p>
+                <input type="text" id="tags1" class="tags-input" placeholder="Add tags separated by comma" 
+                        onKeyPress="if( event.keyCode==13 ){push_data();}" onFocus="this.value='';return true;"><p>
                 <span class="ex-text">For example: fitness app, dashboard, navigation, webshop, landing page</span>
             </div>
             <div class="tags output">
                 <span class="tags-text">Tags</span><p>
-                <div class="show-tags"></div><p>
+                <div id="tags2" class="show-tags" ></div><p>
                 <span class="ex-text">For example: fitness app, dashboard, navigation, webshop, landing page</span>
             </div>
             <div class="category cate-1">

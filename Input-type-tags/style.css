@@ -28,6 +28,7 @@ body {
     height: 50px;
     border-radius: 10px;
     border: 1px solid #E7E5F2;
+    float: left;
 }
 
 .ex-text {
