@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Input Type Tags</title>
+        <meta charset=UTF-8>
+        <meta name="viewport" 
+        content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="input-type-tags">
+            <div class="tags input">
+                <span class="tags-text">Tags</span><p>
+                <input type="text" class="tags-input" placeholder="Add tags separated by comma" 
+                        onkeydown="JavaScript:Enter_Chk();" onFocus="this.value='';return true;"><p>
+                <span class="ex-text">For example: fitness app, dashboard, navigation, webshop, landing page</span>
+            </div>
+            <div class="tags output">
+                <span class="tags-text">Tags</span><p>
+                <div class="show-tags"></div><p>
+                <span class="ex-text">For example: fitness app, dashboard, navigation, webshop, landing page</span>
+            </div>
+            <div class="category cate-1">
+                <span>Category</span><p>
+                <select size='1' class="option1">
+                    <option value="">Select Something</option>
+                    <option value="web">Web</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="uikit">UI Kit</option>
+                    <option value="coded">Coded</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="category cate-2">
+                <span>Category</span><p>
+                <select size='1' class="option2">
+                    <option value="">Select Something</option>
+                    <option value="web">Web</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="uikit">UI Kit</option>
+                    <option value="coded">Coded</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+    </body>
+</html>
