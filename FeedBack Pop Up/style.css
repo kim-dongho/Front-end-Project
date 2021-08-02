@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #232343;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Feedback-UI {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.big-text {
+    font-size: 1.4rem;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.bt {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid rgb(228, 225, 225);
+}
+
+.bt:hover {
+    background-color: #E0BECE;
+}
+
+.likely-text {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.bad {
+    margin-right: 60%;
+}
+
+.commit {
+    border: 1px solid #8C8C9C;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.textfield {
+    width: 85%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.submit_but {
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+    background-color: #232343;
+    color: white;
+    border: none;
+}
