@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Sign in Card</title>
+        <meta charset=UTF-8>
+        <meta name="viewport" 
+        content="width=device-wdith,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+        <script src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.2.js" charset="utf-8"></script>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="sign-card">
+            <div class="card-in-text">
+                <span class="big-text">Co Continue,<p>please sign in</span>
+            </div>
+            <div class="sign-in">
+                <div class="log-in">
+                    <img src="kakao_login.png" onclick="kakaoLogin()">
+                </div>
+                <div class="naver_login" id="naverIdLogin">
+                    <img src="naver_login.png" id="naverIdLogin_loginButton">
+                </div>
+                <span class="or-text">――――――――――――― OR ――――――――――――</span>
+                <div class="email-log-in">
+                    <span class="address-text">Email address</span><p>
+                    <input type="text" class="e-mail-text" placeholder="myemail@address.com"><p>
+                    <button type="button" class="submit_but">Continue with Apple</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to left top, #695FBA, #c6b2f8);
+}
+
+.sign-card {
+    background-color: #fff;
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+span {
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 0.5rem;
+}
+
+.card-in-text {
+    float: left;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sign-in {
+    float: left;
+    margin-top: 100px;
+}
+
+.or-text {
+    line-height: 8rem;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.562);
+    font-weight: bold;
+}
+
+#naverIdLogin_loginButton {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.address-text {
+    font-size: 0.7rem;
+}
+
+.e-mail-text {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 10px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #DEDEE6;
+}
+
+.submit_but {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(to left, #695FBA, #A88FE6);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
