@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F3FB;
+    font-weight: bold;
+}
+
+.sketchCard {
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 600px;
+    height: 500px;
+    position: fixed;
+}
+
+.sketchCard div {
+    margin-left: 60px;
+}
+
+.big-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.op-text {
+    margin-left: 60px;
+}
+
+.guide {
+    background-color: #F3F3FB;
+    width: 300px;
+    height: 80px;
+    line-height: 10px;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.guide-text {
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.changeLang {
+    margin-top: 40px;
+    font-size: 1.5rem;
+}
+
+.choice-lang {
+    width: 290px;
+    height: 50px;
+    border: 1px solid #BCB4BC;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    outline: none;
+}
+
+.change-lang {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #34309C;
+    background-color: #34309C;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.lastModified {
+    margin-left: 60px;
+    font-size: 1rem;
+    color: #BCB4BC;
+}

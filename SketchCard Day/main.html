@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>SketchCard Day</title>
+        <meta charset=UTF-8>
+        <meta name="viewport" 
+        content="width=device-wdith,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <form id="transExForm" name="transExForm">
+            <div class="sketchCard">
+                <h1 class="big-text">Found a problem with this page?</h1>
+                <span class="op-text">Edit· Get source ·Report</span>
+                <div class="guide">
+                    <span class="guide-text">
+                        Want to fix the problem yourself?<p>
+                        See our <a href="https://bit.ly/3lqqcFr">Contribution guide</a>
+                    </span>
+                </div>
+                <div class="changeLang">
+                    <span class="change-text">Change your language</span>
+                    <select id="choiceLang" size=1 class="choice-lang">
+                        <option value="en" id="option1">English</option>
+                        <option value="ko" id="option2">Korean</option>
+                    </select>
+                    <button value="changeLang" class="change-lang" onclick="translate_lang()">change language</button><p>
+                </div>
+                <span class="lastModified">
+                    Last modified: <span id="show_date">0</span>
+                </span>
+            </div>
+        </form>
+    </body>
+</html>
