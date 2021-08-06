@@ -18,26 +18,43 @@
                     reading this gives $10 monthly. we can thrive<br />
                     for years.
                 </span>
+                <div id="cost">Cost = $0</div>
+                <button class="cal" onClick="cal_cost()">Check amount</button>
             </div>
             <div class="donate-select">
                 <div class="gift-freq">
                     <span class="gift-text"> Select gift frequency </span>
                     <div class="freq">
-                        <button class="bt">Monthly</button>
-                        <button class="bt">One time</button>
+                        <button class="bt" id="1" onClick="freq_val(this.id)">
+                            Monthly
+                        </button>
+                        <button class="bt" id="2" onClick="freq_val(this.id)">
+                            One time
+                        </button>
                     </div>
                 </div>
                 <div class="select-amount">
                     <span class="select-text">Select amount(in US dollar)</span
                     ><br />
-                    <button class="bt2">$10</button>
-                    <button class="bt2">$20</button>
-                    <button class="bt2">$30</button>
-                    <button class="bt2">$40</button>
-                    <button class="bt2">Other</button>
+                    <button class="bt2" id="10" onClick="cost_val(this.id)">
+                        $10
+                    </button>
+                    <button class="bt2" id="20" onClick="cost_val(this.id)">
+                        $20
+                    </button>
+                    <button class="bt2" id="30" onClick="cost_val(this.id)">
+                        $30
+                    </button>
+                    <button class="bt2" id="40" onClick="cost_val(this.id)">
+                        $40
+                    </button>
                 </div>
                 <div class="agree">
-                    <input type="checkbox" name="agree" />
+                    <input
+                        type="checkbox"
+                        name="agree"
+                        class="agree-checkbox"
+                    />
                     <span class="agree-text">
                         Yes, I'll generously add $0.75 each month to cover<br />
                         the transaction fees.
