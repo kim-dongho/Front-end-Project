@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    background-color: #262c47;
+    color: white;
+}
+
+.check-menu {
+    width: 300px;
+    height: 350px;
+    background-color: #5c5c7c;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+input[type="radio"] {
+    width: 25px;
+    height: 25px;
+}
+.select-show {
+    width: 300px;
+    height: 35%;
+    display: inline-block;
+    padding: 25px 50px;
+    line-height: 40px;
+}
+.selelct-display {
+    width: 300px;
+    height: 40%;
+    border-bottom: 2px solid #262c47;
+    border-top: 2px solid #262c47;
+    display: inline-block;
+    padding: 0px 50px;
+    font-size: 1rem;
+    line-height: 40px;
+}
+.setting {
+    width: 300px;
+    height: 25%;
+    display: inline-block;
+    padding: 0px 50px;
+    font-size: 1rem;
+    line-height: 40px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.filter-box {
+    margin-top: -140px;
+}
+.filter {
+    margin-left: 260px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.filter img {
+    width: 40px;
+    height: 40px;
+    margin-left: -7px;
+    border-radius: 5px;
+}
+.check-extra-menu {
+    width: 300px;
+    height: 250px;
+    background-color: #5c5c7c;
+    border-radius: 5px;
+}
+
+.select-sw {
+    width: 300px;
+    height: 50%;
+    padding: 20px 50px;
+    font-size: 1rem;
+    line-height: 40px;
+}
+
+.select-incomplete {
+    width: 300px;
+    height: 50%;
+    padding: 20px 50px;
+    font-size: 0.85rem;
+    line-height: 40px;
+    border-top: 2px solid #262c47;
+}

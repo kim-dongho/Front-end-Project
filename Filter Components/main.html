@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Filter Components</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-wdith,initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="check-menu">
+            <div class="select-show">
+                <label for="chk1" class="chk_box"
+                    ><input type="checkbox" name="" id="chk1" />Show Weekends </label
+                ><br />
+                <input type="checkbox" name="" id="" />Show Activities
+            </div>
+            <div class="selelct-display">
+                <span class="display-text"> DISPLAY </span><br />
+                <input type="radio" name="" id="" />Sort by Start Date<br />
+                <input type="radio" name="" id="" />Group by Categories
+            </div>
+            <div class="setting">
+                <a href="">Set my hours</a><br />
+                <a href="">Settings</a>
+            </div>
+        </div>
+        <div class="filter-box">
+            <button class="filter" id="visible_button" onClick="onoff()">
+                <img src="filter.png" alt="" />
+            </button>
+            <div class="check-extra-menu" id="visible_div">
+                <div class="select-sw">
+                    <input type="checkbox" name="" id="" />Trello<br />
+                    <input type="checkbox" name="" id="" />Asana
+                </div>
+                <div class="select-incomplete">
+                    <input
+                        type="checkbox"
+                        class="toggle_button"
+                        id="toggle1"
+                    />Incomplete tasks<label for="toggle1">Toggle</label><br />
+                    <input
+                        type="checkbox"
+                        class="toggle_button"
+                        id="toggle2"
+                    />Incomplete stories<label for="toggle2">Toggle</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
