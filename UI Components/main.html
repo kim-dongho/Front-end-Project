@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>UI Component</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-wdith,initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header class="head">
+            <div id="scroll-bar" class="scroll">
+                <div class="prev-button">
+                    <button id="prev" onClick="prev_b()"><img src="prev.png" alt=""></button>
+                </div>
+                <div class="scroll-list">
+                    <button class="list">Javascript</button>
+                    <button class="list">Chess</button>
+                    <button class="list">Training</button>
+                    <button class="list">Podcasts</button>
+                    <button class="list">Databases</button>
+                    <button class="list">Cryptocurrency</buton>
+                    <button class="list">C++</button>
+                    <button class="list">Python</button>
+                    <button class="list">Go</button>
+                    <button class="list">Ruby</button>
+                </div>
+                <div class="next-button">
+                    <button id="next" onClick ="next_b()"><img src="next.png" alt=""></button> 
+                </div>
+            </div>
+        </header>
+        <section class="sect">
+            <div class="history-type">
+                <span class="history-text"> History type </span><br>
+                <input type="radio" name="select" id="" />Watch history<br>
+                <input type="radio" name="select" id="" />Community
+            </div>
+            <div class="search-bar">
+                <img src="mag.png" alt="" />
+                <input
+                    type="text"
+                    name=""
+                    id="search-input"
+                    placeholder="Enter Keywords to search"
+                />
+                <button>Search</button>
+            </div>
+        </section>
+    </body>
+</html>
